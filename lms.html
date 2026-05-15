@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>DibiEdu - Learning System</title>
+  </head>
+
+  <body class="bg-white text-[#1a202c] overflow-x-hidden font-sans">
+    <main class="flex flex-col">
+      <header>
+        <nav class="sticky top-0 z-50 bg-white shadow-sm px-[5%] py-4 flex items-center justify-between border-b border-slate-50">
+          <div class="flex items-center gap-2">
+            <h1 class="text-[1.1rem] md:text-[1.4rem] font-extrabold text-gray-900 tracking-tight">DibiEdu</h1>
+          </div>
+
+          <div class="hidden md:flex items-center gap-10 ml-auto mr-8">
+            <a href="#" class="text-slate-700 text-sm font-semibold">Home</a>
+            <a href="#" class="text-slate-700 text-sm font-semibold">Courses</a>
+            <a href="#" class="text-slate-700 text-sm font-semibold">About</a>
+            <a href="#" class="text-slate-700 text-sm font-semibold">Contact</a>
+          </div>
+
+          <button class="bg-[#0052FF] px-4 md:px-6 py-2 md:py-2.5 rounded-lg shadow-md">
+            <a href="#" class="text-white text-[0.75rem] md:text-sm font-bold">Sign Up</a>
+          </button>
+        </nav>
+      </header>
+
+      <section class="bg-white py-6 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 md:px-10">
+          <div class="relative h-[320px] md:h-[600px] rounded-[24px] md:rounded-[60px] overflow-hidden flex flex-col items-center justify-center text-center px-6 text-white bg-slate-900">
+            <img
+              src="./src/img/hero1.png"
+              alt="Hero Background"
+              class="absolute inset-0 w-full h-full object-cover z-0"
+            />
+            <div class="absolute inset-0 bg-black/30 z-10"></div>
+            
+            <div class="max-w-4xl relative z-20">
+              <h2 class="text-[1.8rem] md:text-[5.5rem] font-extrabold leading-[1.2] md:leading-[1.1] mb-4 md:mb-6">
+                Unlock Your Potential with EduLearn
+              </h2>
+              <p class="text-[0.75rem] md:text-[1.2rem] opacity-90 max-w-3xl mx-auto leading-relaxed mb-6 md:mb-10">
+                Embark on a journey of knowledge and skill development with our
+                comprehensive online courses. Learn at your own pace, anytime, anywhere.
+              </p>
+              <button class="bg-[#0052FF] px-6 md:px-10 py-3 md:py-4 rounded-xl text-white text-[0.8rem] md:text-base font-bold shadow-lg shadow-blue-500/40">
+                Start Learning
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="py-12 md:py-24 px-[5%] bg-white">
+      <div class="max-w-6xl mx-auto mb-8 md:mb-14">
+        <h2 class="text-[1.6rem] md:text-[2.5rem] font-extrabold mb-3 text-slate-900">Why Choose EduLearn?</h2>
+        <p class="text-slate-500 text-sm md:text-lg leading-relaxed max-w-2xl">
+          Our platform is designed to provide a seamless and effective learning experience, ensuring you gain the skills you need to succeed.
+        </p>
+      </div>
+
+      <div class="flex md:grid md:grid-cols-3 gap-4 md:gap-8 overflow-x-auto pb-4 md:pb-0 scrollbar-hide">
+        <div class="bg-white border border-slate-100 rounded-[20px] p-6 md:p-10 shadow-sm min-w-[280px] md:min-w-0">
+          <img src="./src/icons/icon1.png" alt="Icon" class="w-8 h-8 md:w-10 md:h-10 mb-4 md:mb-6" />
+          <h3 class="text-[1.1rem] md:text-[1.3rem] font-extrabold mb-3 text-slate-900">Online Material</h3>
+          <p class="text-slate-500 text-[0.85rem] md:text-base leading-relaxed">
+            Access a vast library of high-quality learning materials, including videos, articles, and interactive content.
+          </p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-[20px] p-6 md:p-10 shadow-sm min-w-[280px] md:min-w-0">
+          <img src="./src/icons/icon2.png" alt="Icon" class="w-8 h-8 md:w-10 md:h-10 mb-4 md:mb-6" />
+          <h3 class="text-[1.1rem] md:text-[1.3rem] font-extrabold mb-3 text-slate-900">Quizzes & Assignments</h3>
+          <p class="text-slate-500 text-[0.85rem] md:text-base leading-relaxed">
+            Test your knowledge and reinforce your learning with engaging quizzes and practical assignments.
+          </p>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-[20px] p-6 md:p-10 shadow-sm min-w-[280px] md:min-w-0">
+          <img src="./src/icons/icon3.png" alt="Icon" class="w-8 h-8 md:w-10 md:h-10 mb-4 md:mb-6" />
+          <h3 class="text-[1.1rem] md:text-[1.3rem] font-extrabold mb-3 text-slate-900">Certificates</h3>
+          <p class="text-slate-500 text-[0.85rem] md:text-base leading-relaxed">
+            Earn certificates upon completion of courses, showcasing your achievements and enhancing your credentials.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-24 px-[5%] bg-white">
+      <div class="max-w-6xl mx-auto">
+        <div class="mb-8 md:mb-12">
+          <h2 class="text-[1.6rem] md:text-[2.2rem] font-extrabold text-slate-900">Featured Courses</h2>
+        </div>
+        
+        <div class="flex md:grid md:grid-cols-3 gap-6 md:gap-8 overflow-x-auto pb-4 md:pb-0 scrollbar-hide">
+          <div class="bg-white border border-slate-100 rounded-[20px] overflow-hidden shadow-sm min-w-[280px] md:min-w-0">
+            <div class="h-[180px] md:h-[220px] overflow-hidden">
+              <img src="./src/img/gambar1.png" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-5 md:p-6">
+              <h3 class="text-[1rem] md:text-[1.1rem] font-extrabold text-slate-900 mb-2">Web Development Fundamentals</h3>
+              <p class="text-slate-500 text-[0.8rem] md:text-sm leading-relaxed">Learn the basics of HTML, CSS, and JavaScript to build your first website.</p>
+            </div>
+          </div>
+
+          <div class="bg-white border border-slate-100 rounded-[20px] overflow-hidden shadow-sm min-w-[280px] md:min-w-0">
+            <div class="h-[180px] md:h-[220px] overflow-hidden">
+              <img src="./src/img/gambar2.png" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-5 md:p-6">
+              <h3 class="text-[1rem] md:text-[1.1rem] font-extrabold text-slate-900 mb-2">Advanced JavaScript Techniques</h3>
+              <p class="text-slate-500 text-[0.8rem] md:text-sm leading-relaxed">Dive deep into JavaScript concepts like asynchronous programming and closures.</p>
+            </div>
+          </div>
+
+          <div class="bg-white border border-slate-100 rounded-[20px] overflow-hidden shadow-sm min-w-[280px] md:min-w-0">
+            <div class="h-[180px] md:h-[220px] overflow-hidden">
+              <img src="./src/img/gambar3.png" class="w-full h-full object-cover" />
+            </div>
+            <div class="p-5 md:p-6">
+              <h3 class="text-[1rem] md:text-[1.1rem] font-extrabold text-slate-900 mb-2">Responsive Design Mastery</h3>
+              <p class="text-slate-500 text-[0.8rem] md:text-sm leading-relaxed">Master the art of creating websites that adapt to different screen sizes.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex justify-center mt-10 md:mt-14">
+          <button class="bg-slate-100 px-8 py-3 rounded-xl font-bold text-slate-900 text-sm md:text-base">
+            View All Courses
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-white border-t border-slate-50 py-12 md:py-16 px-5 flex flex-col justify-center items-center">
+      <div class="flex justify-center items-center gap-8 md:gap-20 mb-8 text-center">
+        <a href="#" class="text-slate-400 text-[0.75rem] md:text-sm font-bold">Privacy Policy</a>
+        <a href="#" class="text-slate-400 text-[0.75rem] md:text-sm font-bold">Terms of Service</a>
+        <a href="#" class="text-slate-400 text-[0.75rem] md:text-sm font-bold">Contact Us</a>
+      </div>
+      <p class="text-slate-400 text-[0.75rem] md:text-sm font-medium">
+        © 2026 DibiEdu. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
